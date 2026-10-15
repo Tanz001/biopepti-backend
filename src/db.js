@@ -135,7 +135,7 @@ export async function initDb() {
     CREATE TABLE IF NOT EXISTS product_variants (
       id VARCHAR(64) NOT NULL PRIMARY KEY,
       product_id VARCHAR(64) NOT NULL,
-      strength VARCHAR(64) NOT NULL,
+      strength VARCHAR(128) NOT NULL,
       price DECIMAL(12,2) NOT NULL,
       stock ENUM('in_stock', 'low', 'out_of_stock') NOT NULL DEFAULT 'in_stock',
       sku VARCHAR(64) NULL,

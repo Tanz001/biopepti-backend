@@ -15,8 +15,8 @@ const samples = [
     description: 'Modified fragment of human growth hormone (hGH 176-191).',
     purity: 99.4,
     variants: [
-      { strength: '5mg', price: 101, stock: 'in_stock', sku: 'AOD5' },
-      { strength: '10mg', price: 135, stock: 'in_stock', sku: 'AOD10' },
+      { strength: '5mg/vial*10 vials', price: 101, stock: 'in_stock', sku: 'AOD5' },
+      { strength: '10mg/vial*10 vials', price: 135, stock: 'in_stock', sku: 'AOD10' },
     ],
   },
   {
@@ -28,8 +28,8 @@ const samples = [
     description: 'Body Protection Compound 157 pentadecapeptide.',
     purity: 99.7,
     variants: [
-      { strength: '5mg', price: 58, stock: 'in_stock', sku: 'BPC5' },
-      { strength: '10mg', price: 95, stock: 'in_stock', sku: 'BPC10' },
+      { strength: '5mg/vial*10 vials', price: 58, stock: 'in_stock', sku: 'BPC5' },
+      { strength: '10mg/vial*10 vials', price: 95, stock: 'in_stock', sku: 'BPC10' },
     ],
   },
   {
@@ -41,9 +41,9 @@ const samples = [
     description: 'Dual GIP and GLP-1 receptor agonist peptide.',
     purity: 99.7,
     variants: [
-      { strength: '10mg', price: 140, stock: 'in_stock', sku: 'TRZ10' },
-      { strength: '15mg', price: 190, stock: 'in_stock', sku: 'TRZ15' },
-      { strength: '30mg', price: 320, stock: 'low', sku: 'TRZ30' },
+      { strength: '10mg/vial*10 vials', price: 140, stock: 'in_stock', sku: 'TRZ10' },
+      { strength: '15mg/vial*10 vials', price: 190, stock: 'in_stock', sku: 'TRZ15' },
+      { strength: '30mg/vial*10 vials', price: 320, stock: 'low', sku: 'TRZ30' },
     ],
   },
 ];
